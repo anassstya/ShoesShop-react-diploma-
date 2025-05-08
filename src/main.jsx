@@ -8,32 +8,33 @@ import Catalog from "./Catalog/Catalog.jsx";
 import About from "./About/About.jsx";
 import Contacts from "./Contacts/Contacts.jsx";
 import ErrorPage from "./ErrorPage/ErrorPage.jsx";
+import Layout from "./Layout.jsx";
 
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <MainPage/>,
+        element: <Layout><MainPage /></Layout>,
         errorElement: <ErrorPage/>
     },
     {
         path: '/public',
-        element: <MainPage/>,
+        element: <Layout><MainPage /></Layout>,
         errorElement: <ErrorPage/>
     },
     {
         path: '/catalog',
-        element: <Catalog/>,
+        element: <Layout><Catalog /></Layout>,
         errorElement: <ErrorPage/>
     },
     {
         path: '/about',
-        element: <About/>,
+        element: <Layout><About /></Layout>,
         errorElement: <ErrorPage/>
     },
     {
         path: '/contacts',
-        element: <Contacts/>,
+        element: <Layout><Contacts /></Layout>,
         errorElement: <ErrorPage/>
     },
 

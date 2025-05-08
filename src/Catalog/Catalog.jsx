@@ -6,7 +6,6 @@ import Header from "../Header/Header.jsx";
 export default function Catalog(){
     return(
         <div>
-            <Header/>
             <main className="container">
                 <div className="row">
                     <div className="col">
@@ -111,7 +110,6 @@ export default function Catalog(){
                     </div>
                 </div>
             </main>
-            <Footer/>
         </div>
     )
 }

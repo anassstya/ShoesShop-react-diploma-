@@ -8,7 +8,6 @@ import Footer from "../Footer/Footer.jsx";
 export default function MainPage(){
     return (
         <div>
-            <Header/>
             <main className="container">
                 <div className="row">
                     <div className="col">
@@ -37,7 +36,6 @@ export default function MainPage(){
                     </div>
                 </div>
             </main>
-            <Footer/>
         </div>
 
     )

@@ -6,7 +6,6 @@ import Header from "../Header/Header.jsx";
 export default function ErrorPage(){
     return(
         <div>
-            <Header/>
             <main className="container">
                 <div className="row">
                     <div className="col">
@@ -23,7 +22,6 @@ export default function ErrorPage(){
                     </div>
                 </div>
             </main>
-            <Footer/>
         </div>
     )
 }

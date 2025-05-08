@@ -6,7 +6,6 @@ import banner from '/src/html/img/banner.jpg'
 export default function About(){
     return(
         <div>
-            <Header/>
             <main className="container">
                 <div className="row">
                     <div className="col">
@@ -49,7 +48,6 @@ export default function About(){
                     </div>
                 </div>
             </main>
-            <Footer/>
         </div>
     )
 }
